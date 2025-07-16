@@ -1,5 +1,10 @@
 import { Text, SafeAreaView, StyleSheet, View, Image } from 'react-native';
 
+// You can import supported modules from npm
+
+
+// or any files within the Snack
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
@@ -42,22 +47,23 @@ const styles = StyleSheet.create({
     // paddingTop: 15,
     alignItems:'center',
     marginTop: 15,
-    paddingBottom: 20,
+    //paddingBottom: 20,
     marginLeft: 5,
     backgroundColor: 'purple',
-    height: '5px',
-    width: '150px',
+    height: 20,
+    width: 150,
+    borderRadius: 50,
   },
   bloco: {
     paddingLeft: 15,
-    flex: 1,
+    //flex: 0,
     gap: 15,
   },
   divbesouro: {
-    width: '295px',
-    borderRadius: 20,
+    // width: '295px',
+    borderRadius: 5,
     backgroundColor: 'lightgray',
-    flex: 1,
+   // flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
@@ -65,43 +71,41 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
   imagem: {
-    height: '35px',
-    width: '35px',
-    borderRadius: 20,
+    height: 35,
+    width: 35,
+    borderRadius: 50,
   },
   logo: {
-    height: '88px',
-    width: '88px',
+    // height: '88px',
+    // width: '88px',
     borderRightWidth: 5,
     borderRightColor: 'white',
   },
   image: {
-    height: '40px',
-    width: '46px',
+    // height: '40px',
+    // width: '46px',
     borderRightWidth: 3,
     borderRightColor: 'white',
   },
   partesuperiorinterna: {
-    flex: 1,
+    //flex: 0,
     flexDirection: 'row',
     alignItems: 'center',
     gap: '8px',
   },
   partesuperior: {
     backgroundColor: 'purple',
-    borderRadius: 20,
-    height: '100px',
-    width: '100%',
-    marginTop: '-13px',
+    borderRadius: 10,
+    // height: '100px',
+    // width: 100,
+    //marginTop: '-13px',
   },
   partezinha: {
     backgroundColor: 'purple',
-    width: '100%',
-    height: '25px',
+    // width: 100,
+    // height: '25px',
   },
   container: {
-    flex: 1,
-    justifyContent: 'top',
     backgroundColor: 'white',
     padding: 8,
   },
@@ -112,3 +116,4 @@ const styles = StyleSheet.create({
   //   textAlign: 'center',
   // },
 });
+
