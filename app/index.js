@@ -50,7 +50,7 @@ export default function App() {
             </View>
             
             <View style={styles.diventrar}>
-              <TouchableOpacity style={styles.loginButton}>
+              <TouchableOpacity onPress={() => router.navigate('/inicio')} style={styles.loginButton}>
                 <Text style={styles.loginButtonText}>Entrar</Text>
               </TouchableOpacity>
 

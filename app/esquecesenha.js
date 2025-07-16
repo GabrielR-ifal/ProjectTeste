@@ -1,6 +1,6 @@
 import { Text, SafeAreaView, StyleSheet, TextInput, View } from 'react-native';
 
-export default function App() {
+export default function Esqueceu() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.paragraph}>

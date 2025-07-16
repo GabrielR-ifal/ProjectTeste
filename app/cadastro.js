@@ -1,7 +1,7 @@
 import { Text, SafeAreaView, StyleSheet, View, TextInput } from 'react-native';
 import React, { useState } from 'react';
 
-export default function App() {
+export default function Cadastro() {
     const [isFocusedName, setIsFocusedName] = useState(false);
     const [isFocusedUsuario, setIsFocusedUsuario] = useState(false);
     const [isFocusedPassword, setIsFocusedPassword] = useState(false);

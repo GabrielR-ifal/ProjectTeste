@@ -1,6 +1,6 @@
 import { Text, SafeAreaView, StyleSheet } from 'react-native';
 
-export default function App() {
+export default function Conect() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.paragraph}>
